@@ -1,2 +1,9 @@
 allowBuilds:
-  better-sqlite3: set this to true or false
+  better-sqlite3: true
+
+packages:
+  - "server"
+  - "client"
+
+onlyBuiltDependencies:
+  - better-sqlite3
